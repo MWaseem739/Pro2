@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shk Gym</title>
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <!-- I want to Publish -->
+<style>
+    
+    body{
+        margin: 0%;
+        padding: 0%;
+        background: url(gym.jpg);
+        background-repeat: no-repeat;
+        background-size: 110% ;
+         
+        
+    }
+    .left {
+        font-family: 'Baloo 2', cursive;
+        /* border: 2px solid red; */
+        display: inline-block;
+         left: 24px;
+         position: absolute;
+         top: 10px;
+         color: rgb(245, 245, 245);
+         text-align: center;     
+        
+    }
+
+    .center {
+        font-family: 'Baloo 2', cursive;
+        /* border: 2px solid green; */
+        display:block;
+        width: 50%;
+        /* padding: 50%; */
+        margin: 12px auto;
+        top: 420px;
+        color: white;
+    }
+    
+
+    .right {
+        /* border: 2px solid blue; */
+        display:inline-block;
+        position: absolute;
+        right: 24px;
+        top: 2%;
+    }
+    .nav li{
+        display: inline-block;
+    }
+    .nav a{
+          text-decoration: none;
+          padding: 20px 20px;
+    }
+    .nav li a {
+          color: white;
+          font-size: 24px;
+    }
+    
+    .nav li a:hover{
+          text-decoration: underline;
+          font-size: 24px;
+          color: gray;
+    }
+    .nav a.active{
+        color: gray;
+    }
+    .left:hover{
+        color: gray;
+    }
+    .btn{
+        margin: 0px 9px;
+        color: white;
+        background-color: black;
+        padding: 4px 12px;
+        border-radius: 20px;
+        border:  solid grey;
+        font-size: 15px;
+        cursor: pointer;
+     
+    }
+    .btn:hover{
+        background-color: grey;
+    }
+    .left img{
+        width: 40px;
+        filter: invert(50%);
+        text-align: left;
+    }
+    .container{
+        font-family: 'Baloo 2', cursive;
+        /* border: 2px solid greenyellow; */
+        width:33%;
+        margin: 90px 700px;
+        padding: 75px;
+        color: white;
+        border-radius: 20px;
+    }
+    .form input{
+        font-family: 'Baloo 2', cursive;
+        background-color: rgb(182, 179, 179);
+        text-align: center;
+        display: block;
+        width:350px;
+        margin: 3px auto;
+        padding: 1px;
+        border-radius: 8px;
+
+        }
+    .batn{
+        background-color: black;
+        color: white;
+        padding: 3px 16px;
+        margin: 10px;
+        width: 100px;
+        border-radius: 9px;
+    }
+    .container h1{
+        text-align: center;
+    }
+   .container h1:hover{
+       color: gray;
+   }
+    .batn{
+        cursor: pointer;
+        margin:0 20px;
+    }  
+   .batn:hover{
+       background-color: gray;
+   }
+</style>
+<body>
+    <div>
+        <!-- <img src="gym.jpg" alt="Gym picture" class="s"> -->
+    </div>
+    <div class="p">
+        <!--  <img src="gym.jpg" alt="" class="m" width="100%">
+   </div> -->
+        <header class="hdr">
+            <div class="left">
+                <img src="logoo.svg" alt="">
+             <div>Shk Fitness</div>
+            </div>
+            
+            <div class="center">
+                <ul class="nav">
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Fitness</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+                
+            </div>
+
+            <div class="right">
+               
+                <button class="btn">Call Us Now</button>
+                <button class="btn">Email Us</button>
+                </div>
+
+              <div class="container">
+                  <h1>Join the best gym</h1> 
+            <form action="" class="action">
+             <div class="form">
+                 <input type="text" placeholder="Enter your name">
+             </div>
+             <div class="form">
+                <input type="number" placeholder="Contact">
+            </div>
+            <div class="form">
+                <input type="text" placeholder="Address">
+            </div><div class="form">
+                <input type="text" placeholder="Enter your mail">
+                
+            </div>
+            <button class="batn">submit</button>
+
+            </form>
+        </div>           
+
+
+        </header>
+
+</body>
+
+</html>
